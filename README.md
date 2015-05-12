@@ -3,6 +3,10 @@
 --- What is this --- 
 An open structure that will allow easy auto-population of data from a MYSQL database of a HTML input text field using JSON and PHP.
 
+--- Please Support ---
+I like to eat. Any donation is much appreciated. 
+https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=72ADLVUEMUCFY
+
 --- Layout of this GIT ---
 
 /index.html         # sample HTML file that shows a sample form and how JS scripts are added
@@ -22,5 +26,6 @@ An open structure that will allow easy auto-population of data from a MYSQL data
 		3) in js/badHabit.js be sure the ID matches the name ID below.
 		4) Edit php/badHabitHelper.php to suit your database table name, column name, info
 		
-
+--- Comments ---
+josh@swcoins.com
 
