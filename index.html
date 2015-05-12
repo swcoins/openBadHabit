@@ -1,0 +1,37 @@
+<html>
+	<head>
+		<!--- You can include any CSS other JS or mark up you want. This is an exmaple of HTML deployment. --->
+	
+		<! ----
+	
+		### HELP / SETUP ###
+		i) Edit php/config.db.php to connect to your MYSQL database 
+	
+		1) Edit the ID and Name below to suit your needs. 
+		2) in js/badHabit.js be sure the ID matches the name ID below.
+		3) Edit php/badHabitHelper.php to suit your database table name, column name, info
+	
+		--->
+		<link rel="stylesheet" href="http://path/to/css/jquery-ui.min.css" type="text/css">
+	</head>	
+	<body>
+		<form action = "/openBadHabit/php/submitMyForm.php" method = "POST">
+		
+			<!--- #1 This is the input field we want to autofill --->
+			<div id = "thinking" style = "display:none;">thinking...</div>
+			<input type = "text" 	name = "myInputBox" id = "myInputBox" class="ui-autocomplete-input">	
+			<input type = "hidden" 	name = "selectedID" id = "selectedID">			
+			<input type = "submit">
+			
+		</form>
+	</body>
+		
+	<!-- #2 MAKE SURE YOU INCLUDE YOUR JQUERY FILES --->
+	<script src="http://path/to/jquery/jquery-2.1.1.min.js"></script>
+	<script src="http://path/to/jquery/jquery/jquery-ui.min.js"></script>
+	<script src="http://path/to/jquery/jquery.form.min.js"></script>
+	
+	<!-- #3 Include your speical JS file --> 
+	<script src="/openBadHabit/js/badHabit.js"></script>
+	
+</html>
