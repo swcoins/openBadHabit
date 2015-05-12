@@ -14,7 +14,7 @@
 	*/
 
 	//	Basic path defines
-		define('_ROOTURL_',			'http://127.0.0.1/');			//base URL to website
+		define('_ROOTURL_',		'http://127.0.0.1/');			//base URL to website
 		define('_ROOTDIR_', 		$_SERVER['DOCUMENT_ROOT']);		//base directory path to website files
 	
 	//	DB Defines
